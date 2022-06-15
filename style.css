@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.cart{
+    border: solid black 5px;
+    padding: 10px;
+    min-width: 250px;
+}
+.cart__element{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+
+.lowMark{
+    border-color: red;
+}
+.highMark{
+    border-color:green ;
+}
+
+.active{
+    background-color: gray;
+}
